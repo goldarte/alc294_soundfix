@@ -1,0 +1,11 @@
+[Unit]
+Description=Sound fix one-shot service
+After=multi-user.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/bin/bash /lib/systemd/system/sound-fix.sh
+
+[Install]
+WantedBy=default.target
