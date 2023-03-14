@@ -15,8 +15,8 @@ git clone https://github.com/goldarte/alc294_soundfix.git
 2. Make symlinks for service and script
 
 ```bash
-sudo ln -s <full path to alc294_soundfix>/sound-fix.sh sound-fix.sh
-sudo ln -s <full path to alc294_soundfix>/sound-fix.service sound-fix.service
+sudo ln -s <full path to alc294_soundfix>/sound-fix.sh /lib/systemd/system/sound-fix.service
+sudo ln -s <full path to alc294_soundfix>/sound-fix.service /lib/systemd/system/sound-fix.service
 ```
 
 3. Enable service
