@@ -1,6 +1,6 @@
 # alc294_soundfix
 
-Sound fix service for ALC294 on Ubuntu 22.04, tested on Asus Vivobook K6500Z.
+Sound fix service for ALC294 on Ubuntu 22.04, tested on **Asus Vivobook K6500Z**.
 
 Service will autostart after boot and write register data for audiocard.
 
@@ -26,3 +26,7 @@ sudo systemctl enable sound-fix
 ```
 
 4. Restart system and check the sound
+
+## Asus Vivobook K6500ZE
+
+[@dolikemedo](https://github.com/dolikemedo) has more advanced [repo with linux fixes for K6500ZE](https://github.com/dolikemedo/K6500ZE-Linux) laptop.
